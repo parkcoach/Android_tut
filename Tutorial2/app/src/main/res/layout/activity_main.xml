@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dblab.tutorial2.MainActivity">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="379dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="첫 번째 숫자"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="381dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="두 번째 숫자"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="48dp"
+        android:layout_below="@+id/number1"
+        android:layout_alignLeft="@+id/result"
+        android:layout_alignStart="@+id/result" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="더하기"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:onClick="addClick"
+        android:layout_below="@+id/number2"
+        android:layout_alignLeft="@+id/number1"
+        android:layout_alignStart="@+id/number1" />/>
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="빼기"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="93dp"
+        android:onClick="subClick"
+        android:layout_below="@+id/number2"
+        android:layout_toRightOf="@+id/addButton"
+        android:layout_toEndOf="@+id/addButton" />/>
+
+    <Button
+        android:id="@+id/mulButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="곱하기"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="93dp"
+        android:onClick="mulClick"
+        android:layout_below="@+id/number2"
+        android:layout_toLeftOf="@+id/divButton"
+        android:layout_toStartOf="@+id/divButton" />/>
+
+    <Button
+        android:id="@+id/divButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나누기"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="93dp"
+        android:onClick="divClick"
+        android:layout_below="@+id/number2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="376dp"
+        android:layout_height="54dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="154dp"
+        android:layout_below="@+id/addButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
