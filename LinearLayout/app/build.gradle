@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.example.woojin.management"
-        minSdkVersion 16
+        applicationId "com.example.woojin.linearlayout"
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -27,7 +26,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.volley:volley:1.0.0'
-    compile 'com.google.firebase:firebase-database:9.0.0'
     testCompile 'junit:junit:4.12'
 }

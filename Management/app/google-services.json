@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "169755762565",
+    "firebase_url": "https://management-bcdab.firebaseio.com",
+    "project_id": "management-bcdab",
+    "storage_bucket": "management-bcdab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169755762565:android:96392b3e4dff9dd4",
+        "android_client_info": {
+          "package_name": "com.example.woojin.management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169755762565-r06u26lebr4mnijq4n2j7kg5q65npkfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRscbS3XgK1ai__TxEV-DZ61-WfZWQBvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
